@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 25px;
+}
+
+.inner-container {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    background-color: grey;
+}
+
+button {
+    padding: 5px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
